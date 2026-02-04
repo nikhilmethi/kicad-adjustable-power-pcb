@@ -122,6 +122,8 @@ and 9 V.
   - Add 4 mounting holes using the `MountingHole:MountingHole_M3` footprint in
   the corners of your PCB.
 
+- Confirm that your Design Rules Check (DRC) passes with no errors or warnings.
+
 - Create a Git commit with your updated schematic and PCB layout files.
 
 - Create an annotated tag (locally) of your latest commit called `v2.0.0`.
