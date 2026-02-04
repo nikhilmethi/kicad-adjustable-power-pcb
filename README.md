@@ -87,3 +87,52 @@ two simulations configured) and this new screenshot.
   - Assign the Label `Review`.
   
   - Make Dr. Palmeri (`mlp6`) the Assignee.
+
+## PCB Layout
+
+*This will be a separate lab exercise.*
+
+- Create a PCB layout for your voltage divider circuit, modifying it to use a
+3-terminal potentiometer to be able to vary the output voltage `Vin` between 0 V
+and 9 V.
+
+- Make sure the populate the footer of the PCB layout with metadata.
+
+- Your PCB should meeting the following specifications:
+
+  - Single-sided board using thru-hole components.  *Remember, traces on the
+  opposite side of the components!*
+
+  - Your board edges should be a rectangle measuring 50 mm x 50 mm.
+
+  - A ground plane in all non-component areas on the copper side of the PCB.
+
+  - The footprint for your potentiometer should be
+  `Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical`.
+
+  - Your 9 V battery will not be mounted directly to the PCB, but will be
+  connected via a 2-wire cable harness that will attach to a 1x2
+  `Connector_THT:Conn_01x02_Male` header on the PCB.  Use footprint
+  `B02B-XASK-1` for this connector.
+
+  - `Vin` and `GND` should be available to connect to an external circuit via a
+  1x2 `Connector_THT:Conn_01x02_Male` header on the PCB that also uses footprint
+  `B02B-XASK-1`.
+
+  - Add 4 mounting holes using the `MountingHole:MountingHole_M3` footprint in
+  the corners of your PCB.
+
+- Create a Git commit with your updated schematic and PCB layout files.
+
+- Create an annotated tag (locally) of your latest commit called `v2.0.0`.
+
+- Push your new commits and tag to your remote repository.  *Remember, you have
+to push the commits and the tags with separate commands.*
+
+- On GitLab, create a new Issue in your forked repository:
+
+  - Title the Issue: `KiCad PCB Layout Complete`
+  
+  - Assign the Label `Review`.
+  
+  - Make Dr. Palmeri (`mlp6`) the Assignee.
