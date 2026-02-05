@@ -5,7 +5,9 @@
 	(uuid "e631406f-87fe-4554-ac78-f70a902803ac")
 	(paper "A4")
 	(title_block
+		(title "KiCAD/SPICE Lab")
 		(rev "v1.0.0")
+		(company "Duke")
 	)
 	(lib_symbols
 		(symbol "Device:Battery"
@@ -760,7 +762,7 @@
 		)
 	)
 	(junction
-		(at 24.13 38.1)
+		(at 68.58 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ddb73fd-491e-47af-a42b-fcbb1304b03c")
@@ -772,14 +774,14 @@
 		(uuid "234dfc23-e473-4482-9b11-11a687896084")
 	)
 	(junction
-		(at 24.13 25.4)
+		(at 68.58 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b75dcb93-4ef1-4203-933e-0abd7877e7e8")
 	)
 	(wire
 		(pts
-			(xy 24.13 36.83) (xy 24.13 38.1)
+			(xy 68.58 68.58) (xy 68.58 69.85)
 		)
 		(stroke
 			(width 0)
@@ -789,7 +791,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 24.13) (xy 24.13 25.4)
+			(xy 68.58 55.88) (xy 68.58 57.15)
 		)
 		(stroke
 			(width 0)
@@ -829,7 +831,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 25.4) (xy 24.13 26.67)
+			(xy 68.58 57.15) (xy 68.58 58.42)
 		)
 		(stroke
 			(width 0)
@@ -839,7 +841,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 38.1) (xy 24.13 39.37)
+			(xy 68.58 69.85) (xy 68.58 71.12)
 		)
 		(stroke
 			(width 0)
@@ -879,7 +881,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 24.13 24.13 0)
+		(at 68.58 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -888,7 +890,7 @@
 		(fields_autoplaced yes)
 		(uuid "0281c743-b8ad-4126-adc4-cbaf48bd85aa")
 		(property "Reference" "#PWR01"
-			(at 24.13 27.94 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -897,7 +899,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 24.13 19.05 0)
+			(at 68.58 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -905,7 +907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 24.13 0)
+			(at 68.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -914,7 +916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 24.13 0)
+			(at 68.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -923,7 +925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 24.13 24.13 0)
+			(at 68.58 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1013,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 24.13 31.75 0)
+		(at 68.58 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1020,7 +1022,7 @@
 		(fields_autoplaced yes)
 		(uuid "6104f404-7ab3-4a3c-af4a-71d2cb27139a")
 		(property "Reference" "BT1"
-			(at 27.94 29.9084 0)
+			(at 72.39 61.6584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1029,7 +1031,7 @@
 			)
 		)
 		(property "Value" "9"
-			(at 27.94 32.4484 0)
+			(at 72.39 64.1984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,7 +1040,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 30.226 90)
+			(at 68.58 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,7 +1049,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 30.226 90)
+			(at 68.58 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1056,7 +1058,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 24.13 31.75 0)
+			(at 68.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,7 +1067,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 24.13 31.75 0)
+			(at 68.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +1076,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 24.13 31.75 0)
+			(at 68.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1083,7 +1085,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 24.13 31.75 0)
+			(at 68.58 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1108,7 +1110,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 24.13 38.1 270)
+		(at 68.58 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1117,7 +1119,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f4bff76-532d-470e-b38c-cd5439ac18ae")
 		(property "Reference" "#FLG02"
-			(at 26.035 38.1 0)
+			(at 70.485 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +1128,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 27.94 38.0999 90)
+			(at 72.39 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1137,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 38.1 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1144,7 +1146,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 38.1 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,7 +1155,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 24.13 38.1 0)
+			(at 68.58 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1247,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 39.37 0)
+		(at 68.58 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1254,7 +1256,7 @@
 		(fields_autoplaced yes)
 		(uuid "99ea49af-b0be-4dc6-92de-fde7290db631")
 		(property "Reference" "#PWR02"
-			(at 24.13 45.72 0)
+			(at 68.58 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1263,7 +1265,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 24.13 44.45 0)
+			(at 68.58 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1271,7 +1273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 39.37 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1280,7 +1282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 39.37 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 39.37 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +1449,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 24.13 25.4 270)
+		(at 68.58 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1456,7 +1458,7 @@
 		(fields_autoplaced yes)
 		(uuid "da8c4bb6-eae8-4cd0-a791-69603a0482d6")
 		(property "Reference" "#FLG01"
-			(at 26.035 25.4 0)
+			(at 70.485 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1465,7 +1467,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 27.94 25.3999 90)
+			(at 72.39 57.1499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1474,7 +1476,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 25.4 0)
+			(at 68.58 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1483,7 +1485,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 25.4 0)
+			(at 68.58 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1492,7 +1494,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 24.13 25.4 0)
+			(at 68.58 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
